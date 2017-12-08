@@ -1,6 +1,6 @@
 {
   "name": "socks-routes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic package for cleaning up some boilerplate behind express routes.",
   "main": "routes.js",
   "scripts": {
