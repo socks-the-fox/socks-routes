@@ -1,0 +1,30 @@
+{
+  "name": "socks-routes",
+  "version": "1.0.0",
+  "description": "A basic package for cleaning up some boilerplate behind express routes.",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/socks-the-fox/socks-routes.git"
+  },
+  "dependencies": {
+    "methods": "1.x"
+  },
+  "peerDependencies": {
+    "express": "4.x"
+  },
+  "keywords": [
+    "express",
+    "routes",
+    "routing"
+  ],
+  "author": "Socks the Fox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/socks-the-fox/socks-routes/issues"
+  },
+  "homepage": "https://github.com/socks-the-fox/socks-routes#readme"
+}
