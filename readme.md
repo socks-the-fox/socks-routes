@@ -30,7 +30,7 @@ For the routes themselves, I've boiled it down to a one-liner of boilerplate:
 
     // Simple one-line drop in replacement for express's default route
     //  boilerplate, that specifies the route for `/`
-    var router = require('socks-routes').Route('/');
+    var router = module.exports = require('socks-routes').Route('/');
     
     // The rest is the same as express's default route skeleton
     
