@@ -11,6 +11,23 @@ class Route {
 		this.route = route;
 		this.router = express.Router();
 	}
+	
+	all(...args) {
+		console.log("Adding [ALL] "+(this.route=='/'?'':this.route)+args[0]);
+		this.router['all'].apply(this.router, args);
+	}
+	
+	param(...args) {
+		this.router['param'].apply(this.router, args);
+	}
+	
+	route(...args) {
+		this.router['route'].apply(this.router, args);
+	}
+	
+	use(...args) {
+		this.router['use'].apply(this.router, args);
+	}
 }
 
 // create Route#VERB functions as passthroughs to express' router
